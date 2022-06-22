@@ -1,18 +1,16 @@
 var famous_cities = [
-	"python",
-	"javascript",
-	"mongodb",
-	"json",
-	"java",
-	"html",
-	"css",
-	"c",
-	"csharp",
-	"golang",
-	"kotlin",
-	"php",
-	"sql",
-	"ruby"
+    "paris", 
+    "bangkok", 
+    "london", 
+    "dubai", 
+    "istanbul", 
+    "california", 
+    "tokyo", 
+    "mumbai", 
+    "berlin", 
+    "lisbon", 
+    "rio", 
+    "nairobi"
 ]
 
 let answer = '';
@@ -85,7 +83,7 @@ function updateMistakes() {
 function reset() {
   mistakes = 0;
   guessed = [];
-  document.getElementById('hangmanPic').src = './images/0.PNG';
+  document.getElementById('hangmanPic').src = './images/0.jpg';
 
   randomWord();
   guessedWord();
